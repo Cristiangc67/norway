@@ -39,5 +39,4 @@ function cambiarNav(){
     }
 
 }
-/* 700 */
 window.addEventListener('scroll', cambiarNav);
