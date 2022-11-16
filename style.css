@@ -96,6 +96,8 @@ nav{
 
 .city-wrap{
     margin-left: 6em;
+    display: flex;
+    flex-wrap: wrap;
 }
 .hidden{
     opacity: 0;
@@ -124,7 +126,6 @@ nav{
     border: 3px solid black;
 }
 .gallery aside{
-    background-color: red;
 }
 .display-image{
     display: flex;
@@ -168,6 +169,10 @@ nav{
 
 
 /* -----------------------PRECIOS--------------------- */
+.custom-btn-style{
+    margin-left: 1em;
+    margin-right: 1em;
+}
 .prices{
     background-color: #b9e8ea;
     margin-top: 10em;
@@ -346,6 +351,7 @@ nav{
 /* ----------------------CONTACT---------------------------- */
 .contact{
     margin-bottom: 2em;
+    font-family: 'Nunito', sans-serif;
 }
 /* ----------------------FOOTER---------------------------- */
 footer{
@@ -363,3 +369,39 @@ footer div img{
     margin-top: 1em;
 }
 /* ----------------------MEDIAQ---------------------------- */
+@media (min-width: 576px) { 
+    
+ }
+
+/* //Pantallas medianas (tablets de más de 768px) */
+@media (min-width: 768px) {
+   
+ }
+
+/* //Pantallas grandes (desktops de más de 992px) */
+@media (min-width: 992px) { 
+    .city-card img{
+        height: 20em;
+    }
+    .city-card h3{
+        font-size: 3.5em;
+    }
+ }
+
+/* //Pantallas muy grandes (desktops de más de 1200px) */
+@media (min-width: 1200px) { 
+    .city-card img{
+        height: 23em;
+    }
+    .city-card h3{
+        font-size: 4.5em;
+    }
+ }
+@media (min-width: 1400px) { 
+    .city-card img{
+        height: 25em;
+    }
+    .city-card h3{
+        font-size: 5em;
+    }
+ }
