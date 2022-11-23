@@ -95,6 +95,7 @@ nav{
     font-weight: 700;
 }
 .city-card{
+<<<<<<< Updated upstream
     margin-top: 10em;
 }
 
@@ -102,6 +103,13 @@ nav{
     margin-left: 6em;
     display: flex;
     flex-wrap: wrap;
+=======
+    height: 25em;
+}
+
+.city-wrap{
+    height:25em;
+>>>>>>> Stashed changes
 }
 .hidden{
     opacity: 0;
@@ -123,7 +131,7 @@ nav{
 
 /* -----------------------GALERIA--------------------- */
 .gallery{
-    margin-top: 15em;
+    margin-top: 16em;
     background-color: #242a3a;
     padding: 2em 0.25em 2em 1em;
     border-radius: 1em;
@@ -150,9 +158,7 @@ nav{
     width: 20em;
     border-radius: 1em;
 }
-.imgwrapper{
 
-}
 .imageg{
     height: 7em;
     margin-top: 0.4em;
@@ -375,24 +381,41 @@ footer div img{
 }
 /* ----------------------MEDIAQ---------------------------- */
 @media (min-width: 576px) { 
-    
+    #auxiliar1{
+        margin-top: 60em;
+    }
  }
 
 /* //Pantallas medianas (tablets de más de 768px) */
-@media (max-width: 768px) {
+@media (min-width: 740px) {
     #front-word{
         font-size: 7em;
         margin-bottom: 2.2em;
     }
     .banner{
+<<<<<<< Updated upstream
         height: 45em;
+=======
+        height: 30em;
+    }
+    #auxiliar1{
+        margin-top: 35em;
+>>>>>>> Stashed changes
     }
  }
 
 /* //Pantallas grandes (desktops de más de 992px) */
 @media (min-width: 992px) { 
+<<<<<<< Updated upstream
     .city-card img{
+=======
+    
+    /* .city-card img{
+>>>>>>> Stashed changes
         height: 20em;
+    } */
+    #auxiliar1{
+        margin-top: 33em;
     }
     .city-card h3{
         font-size: 3.5em;
@@ -407,6 +430,9 @@ footer div img{
     .city-card h3{
         font-size: 4.5em;
     }
+    #auxiliar1{
+        margin-top: 2em;
+    }
  }
 @media (min-width: 1400px) { 
     .city-card img{
@@ -414,6 +440,9 @@ footer div img{
     }
     .city-card h3{
         font-size: 5em;
+    }
+    #auxiliar1{
+        margin-top: 4em;
     }
  }
 
@@ -462,4 +491,8 @@ footer div img{
 #hamburguer.activated .line:nth-child(3){
     transform: rotate(45deg) translateX(-10px) translateY(2px );
 }
+<<<<<<< Updated upstream
 /**********************************/
+=======
+/**********************************/
+>>>>>>> Stashed changes
