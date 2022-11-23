@@ -26,11 +26,15 @@ nav{
     width: 100%;
 }
 .banner-img{
-    margin-top: -90em;
-    margin-left: -100em;
+    
     filter: brightness(0.70);
     transform: scale(0.5);
+    margin: -90em 0 0 -100em ;
         
+}
+.banner-wrapper{
+    margin: 0;
+    padding: 0;
 }
 #front-word{
     position: relative;
@@ -95,13 +99,18 @@ nav{
     font-weight: 700;
 }
 .city-card{
-    margin-top: 10em;
+    margin-top: 5em;
+    height: 25em;
+    align-content: center;
+    margin: auto;
 }
 
 .city-wrap{
-    margin-left: 6em;
+    /* margin-left: 6em; */ /* posible problema */
     display: flex;
     flex-wrap: wrap;
+    background: #242a3a;
+    padding: 0 0 0 7em;
 }
 .hidden{
     opacity: 0;
@@ -174,11 +183,21 @@ nav{
 
 /* -----------------------PRECIOS--------------------- */
 .custom-btn-style{
-    margin-left: 1em;
-    margin-right: 1em;
+    
+    border: 2px solid black;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 0.5em 2em;
+    display: flex;
+    justify-content: center;
+}
+.custom-btn-style:hover{
+    background-color: rgba(137,145,255,1);
+    border: 2px solid black;
+    color: white;
 }
 .prices{
-    background-color: #b9e8ea;
+    background: url(img/back-price.jpg);
     margin-top: 10em;
     padding-top: 2em;
     margin-bottom: 5em;
@@ -381,16 +400,23 @@ footer div img{
 /* //Pantallas medianas (tablets de más de 768px) */
 @media (max-width: 768px) {
     #front-word{
-        font-size: 7em;
-        margin-bottom: 2.2em;
+        font-size: 5em;
+        margin: 0 0 1em 0;
+        
     }
     .banner{
-        height: 45em;
+        height: 30em;
+    }
+    .city-card{
+        padding-left: 6em;
     }
  }
 
 /* //Pantallas grandes (desktops de más de 992px) */
 @media (min-width: 992px) { 
+    .city-wrap{
+        padding-left: 6em;
+    }
     .city-card img{
         height: 20em;
     }
@@ -400,7 +426,7 @@ footer div img{
  }
 
 /* //Pantallas muy grandes (desktops de más de 1200px) */
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) {
     .city-card img{
         height: 23em;
     }
@@ -463,3 +489,7 @@ footer div img{
     transform: rotate(45deg) translateX(-10px) translateY(2px );
 }
 /**********************************/
+
+html{
+    
+}
