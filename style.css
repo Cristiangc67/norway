@@ -104,7 +104,6 @@ nav{
 
 .city-wrap{
     height:25em;
-    background: #242a3a;
 }
 .hidden{
     opacity: 0;
@@ -385,6 +384,19 @@ footer div img{
     margin-top: 1em;
 }
 /* ----------------------MEDIAQ---------------------------- */
+@media (min-width: 500px) { 
+    #auxiliar1{
+        margin-top: 60em;
+    }
+    #front-word{
+        font-size: 7em;
+        margin-bottom: 1em;
+        
+    }
+    .banner{
+        height: 40em;
+    }
+ }
 @media (min-width: 576px) { 
     #auxiliar1{
         margin-top: 60em;
