@@ -26,11 +26,15 @@ nav{
     width: 100%;
 }
 .banner-img{
-    margin-top: -90em;
-    margin-left: -100em;
+    
     filter: brightness(0.70);
     transform: scale(0.5);
+    margin: -90em 0 0 -100em ;
         
+}
+.banner-wrapper{
+    margin: 0;
+    padding: 0;
 }
 #front-word{
     position: relative;
@@ -95,21 +99,12 @@ nav{
     font-weight: 700;
 }
 .city-card{
-<<<<<<< Updated upstream
-    margin-top: 10em;
-}
-
-.city-wrap{
-    margin-left: 6em;
-    display: flex;
-    flex-wrap: wrap;
-=======
     height: 25em;
 }
 
 .city-wrap{
     height:25em;
->>>>>>> Stashed changes
+    background: #242a3a;
 }
 .hidden{
     opacity: 0;
@@ -180,11 +175,21 @@ nav{
 
 /* -----------------------PRECIOS--------------------- */
 .custom-btn-style{
-    margin-left: 1em;
-    margin-right: 1em;
+    
+    border: 2px solid black;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 0.5em 2em;
+    display: flex;
+    justify-content: center;
+}
+.custom-btn-style:hover{
+    background-color: rgba(137,145,255,1);
+    border: 2px solid black;
+    color: white;
 }
 .prices{
-    background-color: #b9e8ea;
+    background: url(img/back-price.jpg);
     margin-top: 10em;
     padding-top: 2em;
     margin-bottom: 5em;
@@ -384,34 +389,35 @@ footer div img{
     #auxiliar1{
         margin-top: 60em;
     }
+    #front-word{
+        font-size: 7em;
+        margin-bottom: 1em;
+        
+    }
+    .banner{
+        height: 40em;
+    }
  }
 
 /* //Pantallas medianas (tablets de más de 768px) */
 @media (min-width: 740px) {
     #front-word{
-        font-size: 7em;
-        margin-bottom: 2.2em;
+        font-size: 5em;
+        margin: 0 0 1em 0;
+        
     }
     .banner{
-<<<<<<< Updated upstream
-        height: 45em;
-=======
         height: 30em;
     }
     #auxiliar1{
-        margin-top: 35em;
->>>>>>> Stashed changes
+        margin-top: 33em;
     }
  }
 
 /* //Pantallas grandes (desktops de más de 992px) */
 @media (min-width: 992px) { 
-<<<<<<< Updated upstream
-    .city-card img{
-=======
     
     /* .city-card img{
->>>>>>> Stashed changes
         height: 20em;
     } */
     #auxiliar1{
@@ -423,7 +429,7 @@ footer div img{
  }
 
 /* //Pantallas muy grandes (desktops de más de 1200px) */
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) {
     .city-card img{
         height: 23em;
     }
@@ -491,8 +497,4 @@ footer div img{
 #hamburguer.activated .line:nth-child(3){
     transform: rotate(45deg) translateX(-10px) translateY(2px );
 }
-<<<<<<< Updated upstream
 /**********************************/
-=======
-/**********************************/
->>>>>>> Stashed changes
