@@ -383,7 +383,7 @@ footer div img{
     margin-top: 1em;
 }
 /* ----------------------MEDIAQ---------------------------- */
-@media (min-width: 500px) { 
+@media (min-width: 320px) { 
     #auxiliar1{
         margin-top: 60em;
     }
